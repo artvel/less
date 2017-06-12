@@ -13,6 +13,7 @@ sudo apt-get install rubygems
 sudo apt-get install ruby-dev
 sudo gem install rubygems-update
 sudo gem update rubygems
+sudo gem install therubyracer
 sudo gem install less
 sudo ln -s /var/lib/gems/2.3.0/gems/less-2.6.0/bin/lessc /usr/bin/
 ```
