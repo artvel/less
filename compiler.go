@@ -23,8 +23,6 @@ func Compile(path string, w *bytes.Buffer, paths...string)error {
 	}
 	cmdOut, err := cmd.Output()
 	if err != nil {
-		fmt.Println(err)
-		fmt.Println(cmdOut)
 		return err
 	}
 	_, err = w.Write(cmdOut)
