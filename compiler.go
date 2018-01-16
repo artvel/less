@@ -3,7 +3,6 @@ package less
 import (
 	"os/exec"
 	"bytes"
-	"fmt"
 )
 
 func Compile(path string, w *bytes.Buffer, paths...string)error {
